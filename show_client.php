@@ -6,8 +6,8 @@ $id = $argv[1];
 $client = $entityManager->find('App\\Entity\\Client', $id);
 
 if ($client === null) {
-    echo "No product found.\n";
+    echo "No client found.\n";
     exit(1);
 }
 
-echo sprintf("-%s\n", $client->getName());
+echo sprintf("- %s\n", $client->getName());

@@ -17,7 +17,7 @@ $connectionParams = array(
   'user' => 'root',
   'password' => 'dragan73',
   'host' => 'localhost',
-  'driver' => 'mysqli',
+  'driver' => 'pdo_mysql',
 );
 $conn = \Doctrine\DBAL\DriverManager::getConnection($connectionParams);
 

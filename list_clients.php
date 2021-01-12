@@ -6,5 +6,5 @@ $clientRepository = $entityManager->getRepository('App\\Entity\\Client');
 $clients = $clientRepository->findAll();
 
 foreach ($clients as $client) {
-    echo sprintf("-%s\n", $client->getName());
+    echo sprintf("- %s\n", $client->getName());
 }
