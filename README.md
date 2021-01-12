@@ -8,7 +8,7 @@
 ## Project Setup
 
 ``` bash
-composer require doctrine/orm:^2.6.2 symfony/yaml:2.*
+composer require doctrine/orm:^2.6.2
 ```
 
 Add to composer.json
