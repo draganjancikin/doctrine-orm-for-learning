@@ -26,3 +26,19 @@ Then:
 ``` bash
 composer install
 ```
+
+## Project Folder Structure
+
+```bash
+root
+  |--config
+  |
+  |--src
+  |   |--Entity
+  |   |--Controller
+  |
+  |--vendor
+  |
+  |--web
+      |--index.php
+```
