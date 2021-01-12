@@ -1,0 +1,12 @@
+{
+    "name": "dragan/doctrine-orm-for-learning",
+    "description": "Project for learning purpose",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Dragan Jancikin",
+            "email": "dragan.jancikin@gmail.com"
+        }
+    ],
+    "require": {}
+}
