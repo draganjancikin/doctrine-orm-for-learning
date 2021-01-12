@@ -12,4 +12,4 @@ $client->setName($newClientName);
 $entityManager->persist($client);
 $entityManager->flush();
 
-echo "Created Client with ID " . $client->getId() . "\n";
+echo "Created Client: " .$client->getName(). ", with ID " . $client->getId() . "\n";
